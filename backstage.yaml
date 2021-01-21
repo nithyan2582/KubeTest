@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kubeexample
+  description: example.com
+  annotations:
+    backstage.io/kubernetes-id: dice-roller
+spec:
+  type: website
+  lifecycle: production
+  owner: guest
