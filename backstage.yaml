@@ -5,7 +5,7 @@ metadata:
   description: example.com
   annotations:
     backstage.io/kubernetes-id: dice-roller
-    kubernetes:
+    backstage.io/kubernetes:
       serviceLocatorMethod: 'multiTenant'
       clusterLocatorMethods:
          - 'config'
