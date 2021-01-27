@@ -4,11 +4,7 @@ metadata:
   name: Kubeexample
   description: example.com
   annotations:
-    backstage.io/kubernetes-id: dice-roller
-    backstage.io/kubernetes:
-      serviceLocatorMethod: 'multiTenant'
-      clusterLocatorMethods:
-         - 'config'
+    backstage.io/kubernetes-id: dice-roller    
 spec:
   type: service
   lifecycle: production
