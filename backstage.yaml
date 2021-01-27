@@ -1,5 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+kubernetes:
+  serviceLocatorMethod: 'multiTenant'
+  clusterLocatorMethods:
+    - 'config'
 metadata:
   name: Kubeexample
   description: example.com
