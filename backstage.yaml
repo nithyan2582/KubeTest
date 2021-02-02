@@ -4,7 +4,7 @@ metadata:
   name: Kubeexample
   description: example.com
   annotations:
-    backstage.io/kubernetes-id: example1    
+    backstage.io/kubernetes-id: dice-roller    
 spec:
   type: service
   lifecycle: production
