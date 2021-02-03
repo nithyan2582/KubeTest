@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: kubeexampletwo
-  description: example.com
+  name: dice-roller
+  description: Kubernetes example integration with backstage
   annotations:
     backstage.io/kubernetes-id: dice-roller    
 spec:
